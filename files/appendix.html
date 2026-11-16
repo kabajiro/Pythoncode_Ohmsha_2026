@@ -2805,7 +2805,7 @@ vertical-align: -.125em;
 <section id="syntaxerror構文エラー" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="syntaxerror構文エラー"><span class="header-section-number">5.1</span> SyntaxError（構文エラー）</h2>
 <p>　コードの書き方がPythonのルールに合っていない場合に発生します．</p>
-<div id="8ce65c26" class="cell" data-execution_count="1">
+<div id="80ffea22" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 括弧の閉じ忘れ（閉じ括弧がない）</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;hello&quot;</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
@@ -2815,7 +2815,7 @@ vertical-align: -.125em;
 <section id="nameerror名前エラー" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="nameerror名前エラー"><span class="header-section-number">5.2</span> NameError（名前エラー）</h2>
 <p>　定義されていない変数や関数を使おうとした場合に発生します．</p>
-<div id="b0f4b1d4" class="cell" data-execution_count="2">
+<div id="1d28dfc2" class="cell" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(undefined_variable)  <span class="co"># 未定義の変数を使おうとしている</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <pre><code>NameError: name &#39;undefined_variable&#39; is not defined</code></pre>
@@ -2824,7 +2824,7 @@ vertical-align: -.125em;
 <section id="typeerror型エラー" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="typeerror型エラー"><span class="header-section-number">5.3</span> TypeError（型エラー）</h2>
 <p>　データ型が合わない操作をした場合に発生します．</p>
-<div id="fa991867" class="cell" data-execution_count="3">
+<div id="c635062f" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co">&quot;10&quot;</span> <span class="op">+</span> <span class="dv">5</span>  <span class="co"># 文字列と数値を足そうとしている</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <pre><code>TypeError: can only concatenate str (not &quot;int&quot;) to str</code></pre>
@@ -2833,7 +2833,7 @@ vertical-align: -.125em;
 <section id="keyerrorキーエラー" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="keyerrorキーエラー"><span class="header-section-number">5.4</span> KeyError（キーエラー）</h2>
 <p>　辞書やDataFrameに存在しないキー（列名）を指定した場合に発生します．</p>
-<div id="b3f83a5b" class="cell" data-execution_count="4">
+<div id="e842b5f0" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>student <span class="op">=</span> {<span class="st">&quot;name&quot;</span>: <span class="st">&quot;田中&quot;</span>}  <span class="co"># &quot;age&quot;キーを含まない辞書</span></span>
 <span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>student[<span class="st">&quot;age&quot;</span>]              <span class="co"># 存在しないキーを指定</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
@@ -2843,7 +2843,7 @@ vertical-align: -.125em;
 <section id="importerror-modulenotfounderrorインポートエラー" class="level2" data-number="5.5">
 <h2 data-number="5.5" class="anchored" data-anchor-id="importerror-modulenotfounderrorインポートエラー"><span class="header-section-number">5.5</span> ImportError / ModuleNotFoundError（インポートエラー）</h2>
 <p>　存在しないライブラリや，インストールされていないライブラリをインポートしようとした場合に発生します．</p>
-<div id="6ae8e2e1" class="cell" data-execution_count="5">
+<div id="e61f854b" class="cell" data-execution_count="5">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nonexistent_library  <span class="co"># 存在しないライブラリをインポート</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <pre><code>ModuleNotFoundError: No module named &#39;nonexistent_library&#39;</code></pre>
@@ -2995,7 +2995,7 @@ vertical-align: -.125em;
 <section id="散布図行列背景表の-csv-保存" class="level3" data-number="6.2.1">
 <h3 data-number="6.2.1" class="anchored" data-anchor-id="散布図行列背景表の-csv-保存"><span class="header-section-number">6.2.1</span> 散布図行列・背景表の CSV 保存</h3>
 <p>　本書第3章の補足です．以下のコードは，第3章の実習と同じく生徒の学業成績データを <code>df</code> として読み込んだ状態を前提にしています．</p>
-<div id="8876a0de" class="cell" data-execution_count="6">
+<div id="0ddf06de" class="cell" data-execution_count="6">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb28"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -3009,7 +3009,7 @@ vertical-align: -.125em;
 <h4 data-number="6.2.1.1" class="anchored" data-anchor-id="変数間の関係を一度に俯瞰する散布図行列"><span class="header-section-number">6.2.1.1</span> 変数間の関係を一度に俯瞰する：散布図行列</h4>
 <p>　分析の初期段階では，多数の変数の間にどのような関係があるのかを一度に俯瞰したい場面がよくあります．そのような場面では「散布図行列」（scatter plot matrix）が有効です．散布図行列は，変数のペアごとの散布図を格子状に並べた図です．対角成分には各変数の分布（ヒストグラムなど）を，対角以外のセルには2変数のペアごとの散布図を並べることで，全変数の分布と関係性を1枚の図で確認できます．</p>
 <p>　散布図行列を1行で描けるのが「seaborn」というライブラリです．seaborn は内部で Matplotlib を使いつつ，pandas の DataFrame と相性のよい簡潔な記法で，見栄えのよい統計プロットを少ないコードで描けるのが特徴です．Matplotlib のみで散布図行列を描こうとすると，変数ペアごとに <code>subplots</code> を組み合わせて多数のループを書く必要がありますが，seaborn の <code>sns.pairplot()</code> を使えば DataFrame を1つ渡すだけで完成します．</p>
-<div id="18de1f5d" class="cell" data-execution_count="7">
+<div id="4703fc5b" class="cell" data-execution_count="7">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb29"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
 <span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 散布図行列で関係性を確認したい数値変数を選ぶ</span></span>
@@ -3080,7 +3080,7 @@ vertical-align: -.125em;
 <section id="背景表の-csv-保存" class="level4" data-number="6.2.1.2">
 <h4 data-number="6.2.1.2" class="anchored" data-anchor-id="背景表の-csv-保存"><span class="header-section-number">6.2.1.2</span> 背景表の CSV 保存</h4>
 <p>　本書第3章の実習で <code>TableOne</code> を使って作成した背景表（<code>table1_by_school</code>）は，<code>to_csv()</code> で CSV ファイルとして保存でき，報告書などの文書作成に利用できます．</p>
-<div id="496da403" class="cell" data-execution_count="8">
+<div id="3f0f08ce" class="cell" data-execution_count="8">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb30"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>table1_by_school.to_csv(<span class="st">&quot;table1.csv&quot;</span>)</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>　保存先は，引数にファイル名だけを渡した場合は現在の作業ディレクトリ（カレントディレクトリ）です．Google Colab ではノートブック左側の「ファイル」パネルから <code>/content/table1.csv</code> として確認・ダウンロードできます（セッション終了時に消えるため，必要に応じて Google Drive やローカル PC に保存し直してください）．ローカル環境での保存先（作業ディレクトリと相対パス・絶対パスの考え方）は，本ページの「ローカル環境を構築してデータを読み込む」を参照してください．保存先を明示的に指定したい場合は，<code>table1_by_school.to_csv(&quot;/content/drive/MyDrive/table1.csv&quot;)</code> のようにフルパスをファイル名の代わりに渡します．出力された CSV ファイルは Excel で開いて書式を整えたり，Word の文書に貼り付けたりして報告書の作成に利用できます．</p>
@@ -3571,7 +3571,7 @@ vertical-align: -.125em;
 <span id="cb31-25"><a href="#cb31-25" aria-hidden="true" tabindex="-1"></a><span class="an">filters:</span></span>
 <span id="cb31-26"><a href="#cb31-26" aria-hidden="true" tabindex="-1"></a><span class="co">  - _revmark.lua</span></span>
 <span id="cb31-27"><a href="#cb31-27" aria-hidden="true" tabindex="-1"></a><span class="co">  - _ruby.lua</span></span>
-<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a><span class="an">show-revisions:</span><span class="co"> true</span></span>
+<span id="cb31-28"><a href="#cb31-28" aria-hidden="true" tabindex="-1"></a><span class="an">show-revisions:</span><span class="co"> false</span></span>
 <span id="cb31-29"><a href="#cb31-29" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb31-30"><a href="#cb31-30" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb31-31"><a href="#cb31-31" aria-hidden="true" tabindex="-1"></a>　本書『Pythonによるはじめての統計解析』のオンラインコンテンツです．書籍本体に収録した「本書で使用した関数・メソッド一覧」に加え，ローカルPCでの環境構築や，PC・Google Driveからのデータ読み込みなど，実務向けのトピックを掲載しています．</span>
