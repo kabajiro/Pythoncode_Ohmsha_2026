@@ -32,7 +32,7 @@ title: 正誤表
 
 刊行後に判明した誤りと訂正の内容を，このページで随時お知らせします．
 
-[公開レポジトリ（GitHub）に戻る](https://github.com/kabajiro/Pythoncode_Ohmsha_2026)
+[サポートページ（GitHub レポジトリ）に戻る](https://github.com/kabajiro/Pythoncode_Ohmsha_2026)
 
 ## 第1版第1刷
 
