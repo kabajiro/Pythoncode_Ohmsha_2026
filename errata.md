@@ -8,10 +8,9 @@ title: 正誤表
 .er-meta{flex:1;min-width:0;}
 .er-meta h1{margin:0 0 6px;border:none;padding:0;}
 .er-meta .er-sub{color:#57606a;margin:0 0 14px;font-size:1.05em;}
-.er-meta dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0 0 16px;font-size:0.95em;}
+.er-meta dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0;font-size:0.95em;}
 .er-meta dt{color:#57606a;font-weight:600;}
 .er-meta dd{margin:0;}
-.er-status{display:inline-block;padding:5px 12px;border-radius:999px;background:#dafbe1;color:#116329;font-weight:600;font-size:0.9em;}
 .er-note{padding:12px 16px;border-left:4px solid #0969da;background:#f6f8fa;border-radius:4px;margin:12px 0;}
 @media (max-width:600px){.er-head{flex-direction:column;align-items:center;text-align:center}.er-meta dl{text-align:left}}
 </style>
@@ -28,7 +27,6 @@ title: 正誤表
 <dt>ISBN</dt><dd>978-4-274-23536-8</dd>
 <dt>最終更新</dt><dd>2026年11月20日</dd>
 </dl>
-<span class="er-status">現在の訂正件数：0 件</span>
 </div>
 </div>
 
@@ -41,7 +39,7 @@ title: 正誤表
 <div class="er-note">現在のところ，訂正はありません．</div>
 
 <!--
-訂正を追加するときは，上の er-note を消して次の表を使い，見出しカードの訂正件数と最終更新日も直す（新しいものを上に）．
+訂正を追加するときは，上の er-note を消して次の表を使い，見出しカードの最終更新日も直す（新しいものを上に）．
 
 | 頁 | 箇所 | 誤 | 正 | 掲載日 |
 |---|---|---|---|---|
