@@ -11,12 +11,17 @@
 
 ※ このページに戻れるよう別タブで開きたい場合は，**Ctrl + クリック**（Windows）または **⌘ + クリック**（Mac），あるいは右クリック→「新しいタブで開く」をご利用ください．
 
+## 正誤表
+
+刊行後に判明した誤りと訂正の内容は，[正誤表](errata.md)にまとめています（GitHub Pages 版：<https://kabajiro.github.io/Pythoncode_Ohmsha_2026/errata.html>）．誤りと思われる箇所を見つけた場合は，[Issues](https://github.com/kabajiro/Pythoncode_Ohmsha_2026/issues) からお知らせください．
+
 ## ディレクトリ構成
 
 | パス | 内容 |
 |---|---|
 | [`/data/`](data/) | 「Pythonを用いた分析」で使用するデータセット（CSV）：Student Performance / Bank Marketing / Rossi 再犯データ |
 | [`/files/`](files/) | 「Pythonを用いた分析」・オンラインコンテンツの HTML（GitHub Pages で公開中） |
+| [`errata.md`](errata.md) | 正誤表 |
 
 ## データセットの読み込み方
 
