@@ -1,16 +1,17 @@
-<img src="assets/cover.jpg" align="left" width="190" alt="『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』の表紙">
+<img src="assets/cover.jpg" align="left" width="170" alt="『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』の表紙">
 
-# Pythonによるはじめての統計解析 — サポートページ（GitHub レポジトリ）
+# Pythonによるはじめての統計解析
 
+**サポートページ（GitHub レポジトリ）**<br>
 **著者**：加葉田大志朗・今井匠 共著<br>
 **出版社**：オーム社（[書籍ページ](https://www.ohmsha.co.jp/book/9784274235368.html)）<br>
 **発行**：2026年11月30日 第1版第1刷<br>
 **ISBN**：978-4-274-23536-8<br>
 **前著**：加葉田大志朗『医学研究のためのRによる統計解析入門』（2023，オーム社，[サポートページ](https://github.com/kabajiro/Rcode_Ohmsha_2023)）
 
-『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』の読者向けサポートページ（GitHub レポジトリ）です．本書の「Pythonを用いた分析」で使用するデータセットと，「Pythonを用いた分析」・オンラインコンテンツの単一HTMLを配布しています．
-
 <br clear="all">
+
+『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』の読者向けサポートページ（GitHub レポジトリ）です．本書の「Pythonを用いた分析」で使用するデータセットと，「Pythonを用いた分析」・オンラインコンテンツの単一HTMLを配布しています．
 
 ## オンラインで読む（GitHub Pages）
 
