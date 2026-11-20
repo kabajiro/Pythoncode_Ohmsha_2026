@@ -7,7 +7,7 @@
 **出版社**：オーム社（[書籍ページ](https://www.ohmsha.co.jp/book/9784274235368.html)）<br>
 **発行**：2026年11月30日 第1版第1刷<br>
 **ISBN**：978-4-274-23536-8<br>
-**前著**：加葉田大志朗『医学研究のためのRによる統計解析入門』（2023，オーム社，[サポートページ](https://github.com/kabajiro/Rcode_Ohmsha_2023)）
+**前著**：『医学研究のためのRによる統計解析入門』（2023）[サポートページ](https://github.com/kabajiro/Rcode_Ohmsha_2023)
 
 <br clear="all">
 
