@@ -13,7 +13,11 @@
 
 ## 正誤表
 
-刊行後に判明した誤りと訂正の内容は，[正誤表](errata.md)にまとめています（GitHub Pages 版：<https://kabajiro.github.io/Pythoncode_Ohmsha_2026/errata.html>）．誤りと思われる箇所を見つけた場合は，[Issues](https://github.com/kabajiro/Pythoncode_Ohmsha_2026/issues) からお知らせください．
+刊行後に判明した誤りと訂正の内容は，以下のページにまとめています．
+
+- **正誤表**: <https://kabajiro.github.io/Pythoncode_Ohmsha_2026/errata.html>
+
+誤りと思われる箇所を見つけた場合は，オーム社の[書籍お問合せフォーム](https://www.ohmsha.co.jp/contact/book.php?isbn=978-4-274-23536-8)からお知らせください．
 
 ## ディレクトリ構成
 
@@ -21,7 +25,6 @@
 |---|---|
 | [`/data/`](data/) | 「Pythonを用いた分析」で使用するデータセット（CSV）：Student Performance / Bank Marketing / Rossi 再犯データ |
 | [`/files/`](files/) | 「Pythonを用いた分析」・オンラインコンテンツの HTML（GitHub Pages で公開中） |
-| [`errata.md`](errata.md) | 正誤表 |
 
 ## データセットの読み込み方
 

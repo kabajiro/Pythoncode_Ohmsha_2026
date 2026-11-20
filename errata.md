@@ -24,6 +24,6 @@ title: 正誤表
 
 ## 誤りを見つけたら
 
-本書の記述やコードに誤りと思われる箇所を見つけた場合は，GitHub の [Issues](https://github.com/kabajiro/Pythoncode_Ohmsha_2026/issues) からお知らせください．頁番号と該当箇所（節・項，図表番号，コードの行など）を書き添えていただけると，確認がはやく進みます．
+本書の記述やコードに誤りと思われる箇所を見つけた場合は，オーム社の[書籍お問合せフォーム](https://www.ohmsha.co.jp/contact/book.php?isbn=978-4-274-23536-8)からお知らせください．頁番号と該当箇所（節・項，図表番号，コードの行など）を書き添えていただけると，確認がはやく進みます．オーム社の[書籍ページ](https://www.ohmsha.co.jp/book/9784274235368.html#errata)の「正誤表」欄にも，訂正の内容を掲載します．
 
 訂正が「Pythonを用いた分析」や「オンラインコンテンツ」の内容に関わる場合は，HTML 版（[Pythonを用いた分析](files/practice.html)・[オンラインコンテンツ](files/appendix.html)）も合わせて更新します．
