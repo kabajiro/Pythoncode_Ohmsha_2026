@@ -2,8 +2,6 @@
 
 オーム社 加葉田大志朗・今井匠 共著『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』（2026年11月30日発行）の読者向け公開リポジトリです．本書の「Pythonを用いた分析」で使用するデータセットと，「Pythonを用いた分析」・オンラインコンテンツの単一HTMLを配布しています．
 
-- **GitHub リポジトリ**（ファイルの一覧とダウンロード）: <https://github.com/kabajiro/Pythoncode_Ohmsha_2026>
-- **公開ページ（GitHub Pages）**: <https://kabajiro.github.io/Pythoncode_Ohmsha_2026/>
 
 ## オンラインで読む（GitHub Pages）
 
@@ -12,7 +10,7 @@
 - **Pythonを用いた分析**: <https://kabajiro.github.io/Pythoncode_Ohmsha_2026/files/practice.html>
 - **オンラインコンテンツ**: <https://kabajiro.github.io/Pythoncode_Ohmsha_2026/files/appendix.html>
 
-※ このページに戻れるよう別タブで開きたい場合は，**Ctrl + クリック**（Windows）または **⌘ + クリック**（Mac），あるいは右クリック→「新しいタブで開く」をご利用ください．
+※ このリポジトリに戻れるよう別タブで開きたい場合は，**Ctrl + クリック**（Windows）または **⌘ + クリック**（Mac），あるいは右クリック→「新しいタブで開く」をご利用ください．
 
 ## 正誤表
 
@@ -26,8 +24,8 @@
 
 | パス | 内容 |
 |---|---|
-| [`/data/`](https://github.com/kabajiro/Pythoncode_Ohmsha_2026/tree/main/data) | 「Pythonを用いた分析」で使用するデータセット（CSV）：Student Performance / Bank Marketing / Rossi 再犯データ |
-| [`/files/`](https://github.com/kabajiro/Pythoncode_Ohmsha_2026/tree/main/files) | 「Pythonを用いた分析」・オンラインコンテンツの HTML（GitHub Pages で公開中） |
+| [`/data/`](data/) | 「Pythonを用いた分析」で使用するデータセット（CSV）：Student Performance / Bank Marketing / Rossi 再犯データ |
+| [`/files/`](files/) | 「Pythonを用いた分析」・オンラインコンテンツの HTML（GitHub Pages で公開中） |
 
 ## データセットの読み込み方
 
@@ -43,7 +41,7 @@ df = pd.read_csv(
 )
 ```
 
-各データセットの出典・ライセンス・対応章の詳細は [`data/README.md`](https://github.com/kabajiro/Pythoncode_Ohmsha_2026/blob/main/data/README.md) を参照してください．
+各データセットの出典・ライセンス・対応章の詳細は [`data/README.md`](data/README.md) を参照してください．
 
 ## ライセンス
 
