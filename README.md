@@ -1,6 +1,6 @@
-<img src="assets/cover.jpg" align="left" width="170" alt="『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』の表紙">
-
 # Pythonによるはじめての統計解析
+
+<img src="assets/cover.jpg" align="left" width="170" alt="『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』の表紙">
 
 **サポートページ（GitHub レポジトリ）**<br>
 **著者**：加葉田大志朗・今井匠 共著<br>
