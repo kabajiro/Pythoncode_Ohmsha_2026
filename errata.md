@@ -2,20 +2,46 @@
 title: 正誤表
 ---
 
-# 正誤表
+<style>
+.er-head{display:flex;gap:28px;align-items:flex-start;margin:4px 0 28px;}
+.er-head img{width:200px;max-width:38%;height:auto;border:1px solid #d0d7de;border-radius:6px;box-shadow:0 4px 14px rgba(0,0,0,.12);flex:none;}
+.er-meta{flex:1;min-width:0;}
+.er-meta h1{margin:0 0 6px;border:none;padding:0;}
+.er-meta .er-sub{color:#57606a;margin:0 0 14px;font-size:1.05em;}
+.er-meta dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0 0 16px;font-size:0.95em;}
+.er-meta dt{color:#57606a;font-weight:600;}
+.er-meta dd{margin:0;}
+.er-status{display:inline-block;padding:5px 12px;border-radius:999px;background:#dafbe1;color:#116329;font-weight:600;font-size:0.9em;}
+.er-note{padding:12px 16px;border-left:4px solid #0969da;background:#f6f8fa;border-radius:4px;margin:12px 0;}
+@media (max-width:600px){.er-head{flex-direction:column;align-items:center;text-align:center}.er-meta dl{text-align:left}}
+</style>
 
-『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』（加葉田大志朗・今井匠 共著，オーム社，2026年11月30日 第1版第1刷）の正誤表です．刊行後に判明した誤りと訂正の内容を，このページで随時お知らせします．
+<div class="er-head">
+<img src="assets/cover.jpg" alt="『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』の表紙">
+<div class="er-meta">
+<h1>正誤表</h1>
+<p class="er-sub">『Pythonによるはじめての統計解析 ―データサイエンスの第一歩―』</p>
+<dl>
+<dt>著者</dt><dd>加葉田大志朗・今井匠 共著</dd>
+<dt>出版社</dt><dd>オーム社（<a href="https://www.ohmsha.co.jp/book/9784274235368.html">書籍ページ</a>）</dd>
+<dt>発行</dt><dd>2026年11月30日 第1版第1刷</dd>
+<dt>ISBN</dt><dd>978-4-274-23536-8</dd>
+<dt>最終更新</dt><dd>2026年11月20日</dd>
+</dl>
+<span class="er-status">現在の訂正件数：0 件</span>
+</div>
+</div>
 
-最終更新：2026年11月20日
+刊行後に判明した誤りと訂正の内容を，このページで随時お知らせします．
 
 [公開リソースのトップページに戻る](./)
 
 ## 第1版第1刷
 
-現在のところ，訂正はありません．
+<div class="er-note">現在のところ，訂正はありません．</div>
 
 <!--
-訂正を追加するときは，上の 1 行を消して次の表を使う（新しいものを上に）．
+訂正を追加するときは，上の er-note を消して次の表を使い，見出しカードの訂正件数と最終更新日も直す（新しいものを上に）．
 
 | 頁 | 箇所 | 誤 | 正 | 掲載日 |
 |---|---|---|---|---|
